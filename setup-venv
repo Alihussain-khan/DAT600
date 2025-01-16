@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+set -e
+
+# Install virtual environment with necessary
+# python libraries
+python3 -m venv .venv;
+. env.sh; # Activate the environment
+pip install --upgrade pip;
+pip install --upgrade matplotlib pandas scipy;
