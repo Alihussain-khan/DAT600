@@ -271,10 +271,10 @@ if __name__ == '__main__':
         counters_qs = np.zeros(4)
 
     # Print the results
-    print(f'Insertion Sort Counters: {counters_all[0, :]}')
-    print(f'Merge Sort Counters: {counters_all[1, :]}')
-    print(f'Heap Sort Counters: {counters_all[2, :]}')
-    print(f'Quick Sort Counters: {counters_all[3, :]}')
+    print(f'Insertion Sort Counters: {counters_all[0, :].astype(int)}')
+    print(f'Merge Sort Counters: {counters_all[1, :].astype(int)}')
+    print(f'Heap Sort Counters: {counters_all[2, :].astype(int)}')
+    print(f'Quick Sort Counters: {counters_all[3, :].astype(int)}')
 
 
 
